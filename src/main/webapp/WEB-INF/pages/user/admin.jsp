@@ -68,21 +68,17 @@
 
     </div>
     <%--左标签 end--%>
+    <%--中间标签 start--%>
+    <div data-options="region:'center',title:'Center'">
+        <jsp:include page="${include}"/>
+    </div>
+    <%--中间标签 end--%>
 
-    <%--<div data-options="region:'center',title:'center title'" style="padding:5px;background:#eee;">--%>
-        <%--选项卡 start--%>
-        <div id="tabs" class="easyui-tabs" data-options="region:'center'" style="width:100%;height:100%;background:#eee;">
-            <div title="new tabs" data-options="closable:true">
+</body>
+</html>
 
-            </div>
-            <div>
 
-            </div>
 
-        </div>
-            <%--选项卡end--%>
-
-    <%--</div>--%>
 
 </body>
 </html>
